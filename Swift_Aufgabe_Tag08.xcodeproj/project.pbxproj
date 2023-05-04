@@ -13,6 +13,7 @@
 		04E495F029A5F9AB000BA515 /* Schule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E495EF29A5F9AB000BA515 /* Schule.swift */; };
 		04E495F229A5F9B1000BA515 /* Lehrer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E495F129A5F9B1000BA515 /* Lehrer.swift */; };
 		04E495F429A5F9B8000BA515 /* Schueler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E495F329A5F9B8000BA515 /* Schueler.swift */; };
+		4B7842EB2A03A2E4009CBA57 /* README.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7842EA2A03A2E4009CBA57 /* README.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		04E495EF29A5F9AB000BA515 /* Schule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schule.swift; sourceTree = "<group>"; };
 		04E495F129A5F9B1000BA515 /* Lehrer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lehrer.swift; sourceTree = "<group>"; };
 		04E495F329A5F9B8000BA515 /* Schueler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schueler.swift; sourceTree = "<group>"; };
+		4B7842EA2A03A2E4009CBA57 /* README.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		04E495D829A5F98F000BA515 = {
 			isa = PBXGroup;
 			children = (
+				4B7842EA2A03A2E4009CBA57 /* README.swift */,
 				04E495E329A5F98F000BA515 /* Swift_Aufgabe_Tag08 */,
 				04E495E229A5F98F000BA515 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7842EB2A03A2E4009CBA57 /* README.swift in Sources */,
 				04E495F229A5F9B1000BA515 /* Lehrer.swift in Sources */,
 				04E495EC29A5F99E000BA515 /* Phone.swift in Sources */,
 				04E495E529A5F98F000BA515 /* main.swift in Sources */,
@@ -264,7 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 27MXYDTP56;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -275,7 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 27MXYDTP56;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

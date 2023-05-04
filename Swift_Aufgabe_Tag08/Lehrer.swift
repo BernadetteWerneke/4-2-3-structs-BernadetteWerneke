@@ -8,3 +8,12 @@
 import Foundation
 
 // MARK: Deklaration der struct Lehrer
+
+struct Lehrer{
+    var Name: String
+    var Alter: Int
+    var Hauptfach: String
+    var Nebenfach: String
+}
+
+let Lehrer1: Lehrer = Lehrer(Name: "Hr. Müller", Alter: 42, Hauptfach: "Deutsch", Nebenfach: "Sport")
