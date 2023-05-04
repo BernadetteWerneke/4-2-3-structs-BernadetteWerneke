@@ -19,9 +19,15 @@ struct User {
     var phone: Phone
 }
 
-var user1 : User = User(name: "Bernadette", userID: 001, isloggedIn: false, password: "Biene", email: "feschebiene@web.de", city: "Berlin", phone: myPhone)
+func userInfos(user: User){
+    print("\nUserInfos:")
+    print("Name: \(user.name)")
+    print("userID: \(user.userID)")
+    print("eingeloggt: \(user.isloggedIn)")
+    print("Passwort: \(user.password)")
+    print("Email: \(user.email)")
+    print("Stadt: \(user.city)")
+    print("Model des Mobiles: \(user.phone)")
+}
 
-var user2 = user1
-
-//user2 kauft neues Telefon
 

@@ -16,4 +16,5 @@ struct Lehrer{
     var Nebenfach: String
 }
 
-let Lehrer1: Lehrer = Lehrer(Name: "Hr. Müller", Alter: 42, Hauptfach: "Deutsch", Nebenfach: "Sport")
+let Lehrer1: Lehrer = Lehrer(Name: "Hr. Müller", Alter: 41, Hauptfach: "Deutsch", Nebenfach: "Sport")
+

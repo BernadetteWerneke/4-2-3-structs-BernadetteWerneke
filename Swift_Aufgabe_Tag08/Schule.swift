@@ -14,8 +14,8 @@ struct Schule{
     var AnzahlSchueler:  Int = 3
     var AnzahlGebaeude: Int = 2
     var Lehreranzahl: Int = 1
-    var Lehrer: Lehrer
-    var Studenten: [Schueler]
+    var Lehrer: Lehrer              //property teacher
+    var Studenten: [Schueler]       //property Schüler
     struct Stadt{
         var Name: String
         var Einwohneranzahl: Int
@@ -24,6 +24,7 @@ struct Schule{
         var Marktplatz: Bool
         var Eisdielen: Int
     }
+    //besser in main anstatt hier
     var Kleinstadt: Schule.Stadt = Stadt(Name: "Entenhausen", Einwohneranzahl: 150, Krankenahus: true, Einkaufszentrum: false, Marktplatz: true, Eisdielen: 3)
     
     func schuldaten(){

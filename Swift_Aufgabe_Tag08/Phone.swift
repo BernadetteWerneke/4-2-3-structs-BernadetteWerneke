@@ -15,6 +15,4 @@ struct Phone{
     var system: String
 }
 
-let myPhone : Phone = Phone(modell: "Samsung Galaxy xy", year: 2022, system: "Android")
 
-let newPhone : Phone = Phone(modell: "Samsung 123", year: 2029, system: "Klapptelephone Android")
